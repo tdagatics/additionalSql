@@ -16,6 +16,8 @@
 		4315ED1F1A018B5C00FBA1E0 /* additionalSqlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315ED1E1A018B5C00FBA1E0 /* additionalSqlTests.m */; };
 		4315ED2A1A018C8400FBA1E0 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315ED291A018C8400FBA1E0 /* HomeModel.m */; };
 		4315ED2D1A018C9C00FBA1E0 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315ED2C1A018C9C00FBA1E0 /* Location.m */; };
+		4315ED301A0195D700FBA1E0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315ED2F1A0195D700FBA1E0 /* DetailViewController.m */; };
+		4315ED321A0196AE00FBA1E0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4315ED311A0196AE00FBA1E0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,9 @@
 		4315ED291A018C8400FBA1E0 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		4315ED2B1A018C9C00FBA1E0 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		4315ED2C1A018C9C00FBA1E0 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		4315ED2E1A0195D700FBA1E0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4315ED2F1A0195D700FBA1E0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4315ED311A0196AE00FBA1E0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4315ED321A0196AE00FBA1E0 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +75,7 @@
 		4315ECF61A018B5C00FBA1E0 = {
 			isa = PBXGroup;
 			children = (
+				4315ED311A0196AE00FBA1E0 /* MapKit.framework */,
 				4315ED011A018B5C00FBA1E0 /* additionalSql */,
 				4315ED1B1A018B5C00FBA1E0 /* additionalSqlTests */,
 				4315ED001A018B5C00FBA1E0 /* Products */,
@@ -92,6 +99,8 @@
 				4315ED091A018B5C00FBA1E0 /* ViewController.h */,
 				4315ED0A1A018B5C00FBA1E0 /* ViewController.m */,
 				4315ED0C1A018B5C00FBA1E0 /* Main.storyboard */,
+				4315ED2E1A0195D700FBA1E0 /* DetailViewController.h */,
+				4315ED2F1A0195D700FBA1E0 /* DetailViewController.m */,
 				4315ED281A018C8400FBA1E0 /* HomeModel.h */,
 				4315ED291A018C8400FBA1E0 /* HomeModel.m */,
 				4315ED2B1A018C9C00FBA1E0 /* Location.h */,
@@ -234,6 +243,7 @@
 				4315ED0B1A018B5C00FBA1E0 /* ViewController.m in Sources */,
 				4315ED081A018B5C00FBA1E0 /* AppDelegate.m in Sources */,
 				4315ED051A018B5C00FBA1E0 /* main.m in Sources */,
+				4315ED301A0195D700FBA1E0 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
