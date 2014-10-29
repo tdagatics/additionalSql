@@ -14,6 +14,8 @@
 		4315ED101A018B5C00FBA1E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4315ED0F1A018B5C00FBA1E0 /* Images.xcassets */; };
 		4315ED131A018B5C00FBA1E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4315ED111A018B5C00FBA1E0 /* LaunchScreen.xib */; };
 		4315ED1F1A018B5C00FBA1E0 /* additionalSqlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315ED1E1A018B5C00FBA1E0 /* additionalSqlTests.m */; };
+		4315ED2A1A018C8400FBA1E0 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315ED291A018C8400FBA1E0 /* HomeModel.m */; };
+		4315ED2D1A018C9C00FBA1E0 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315ED2C1A018C9C00FBA1E0 /* Location.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		4315ED181A018B5C00FBA1E0 /* additionalSqlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = additionalSqlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4315ED1D1A018B5C00FBA1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4315ED1E1A018B5C00FBA1E0 /* additionalSqlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = additionalSqlTests.m; sourceTree = "<group>"; };
+		4315ED281A018C8400FBA1E0 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		4315ED291A018C8400FBA1E0 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		4315ED2B1A018C9C00FBA1E0 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		4315ED2C1A018C9C00FBA1E0 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				4315ED091A018B5C00FBA1E0 /* ViewController.h */,
 				4315ED0A1A018B5C00FBA1E0 /* ViewController.m */,
 				4315ED0C1A018B5C00FBA1E0 /* Main.storyboard */,
+				4315ED281A018C8400FBA1E0 /* HomeModel.h */,
+				4315ED291A018C8400FBA1E0 /* HomeModel.m */,
+				4315ED2B1A018C9C00FBA1E0 /* Location.h */,
+				4315ED2C1A018C9C00FBA1E0 /* Location.m */,
 				4315ED0F1A018B5C00FBA1E0 /* Images.xcassets */,
 				4315ED111A018B5C00FBA1E0 /* LaunchScreen.xib */,
 				4315ED021A018B5C00FBA1E0 /* Supporting Files */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4315ED2A1A018C8400FBA1E0 /* HomeModel.m in Sources */,
+				4315ED2D1A018C9C00FBA1E0 /* Location.m in Sources */,
 				4315ED0B1A018B5C00FBA1E0 /* ViewController.m in Sources */,
 				4315ED081A018B5C00FBA1E0 /* AppDelegate.m in Sources */,
 				4315ED051A018B5C00FBA1E0 /* main.m in Sources */,
